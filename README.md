@@ -6,15 +6,15 @@ The Antenna Connectivity Analyzer is a sophisticated software application design
 
 Key Features:
 
-Graphical Representation:
+Graphical Representation:\\
 
 The program enables users to visually represent the antenna network as a graph, where each node corresponds to an antenna and the edges represent connections between them.
 User Interaction:
 
-Users can select a specific antenna (node) and choose another antenna to test for connectivity. The program will then execute an analysis to determine if a connection exists and the optimal path if applicable.
+Users can select a specific antenna (node) and choose another antenna to test for connectivity. The program will then execute an analysis to determine if a connection exists and the optimal path if applicable.\\
 Depth-First Search (DFS):
 
-Implements the DFS algorithm to explore as far as possible along each branch of the network graph before backtracking. This feature is particularly useful for exploring unknown or less obvious connections and for network optimization.
+Implements the DFS algorithm to explore as far as possible along each branch of the network graph before backtracking. This feature is particularly useful for exploring unknown or less obvious connections and for network optimization.\\
 Breadth-First Search (BFS):
 
 Utilizes the BFS algorithm to inspect all the neighboring antennas (nodes) at the present depth before moving on to nodes at the next depth level. Ideal for locating the shortest path and for analyzing closely located antennas.
